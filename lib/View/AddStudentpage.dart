@@ -147,7 +147,7 @@ class AddStudentPage extends StatelessWidget {
   poststudentDetailsToFirebase() async {
     FirebaseFirestore firebaseFirestore = FirebaseFirestore.instance;
 
-    UserModel userModel = UserModel();
+  
     StudentModel studentModel = StudentModel();
     studentModel.department = departmentcontroller.text;
     studentModel.name = studentnamecontroller.text;
