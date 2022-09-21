@@ -7,7 +7,7 @@ import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
 class AttendancePage extends StatefulWidget {
-  const AttendancePage({Key? key}) : super(key: key);
+  AttendancePage({Key? key}) : super(key: key);
 
   @override
   State<AttendancePage> createState() => _AttendancePageState();
